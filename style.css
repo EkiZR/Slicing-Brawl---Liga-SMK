@@ -13,6 +13,10 @@ body {
 	background: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 nav {
 	padding: 20px 15%;
 	display: flex;
@@ -30,18 +34,23 @@ nav {
 	padding-right: 5%;
 	font-size: 15px;
 	font-weight: 500;
+    color: black;
 }
 
-
+.ListNav img {
+    position: relative;
+    top: 3px;
+}
 
 ul li {
 	list-style-type: none;
 }
 
-ul li a {
+a {
     text-decoration: none;
-
+    color: black;
 }
+
 
 .Home {
 	padding: 0% 15%;
@@ -67,6 +76,7 @@ ul li a {
 	margin-top: 5%;
 	color: #7f7f80;
 	padding-right: 10%;
+    margin-bottom: 40px;
 }
 
 .Button,
